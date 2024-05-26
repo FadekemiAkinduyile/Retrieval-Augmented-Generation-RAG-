@@ -5,11 +5,11 @@ This repository contains 2 Retrieval Augmented Generation (RAG) implementations:
 
 This Jupyter notebook demonstrates how to set up a Retrieval Question Answering system using Llama 2, a large language model. The system retrieves relevant information from a set of documents and generates responses to user questions.
 
-Prerequisites
+Prerequisites:
 
 pip install langchain langchain-community sentence_transformers faiss-cpu ctransformers huggingface-hub pypdf
 
-Usage
+Usage:
 
 * Run the notebook retrieval_qa_llama_2.ipynb
 
@@ -22,11 +22,11 @@ Usage
 
 This Jupyter notebook demonstrates how to set up a Question Answering system using Llama 3, a state-of-the-art language model. The system utilizes a combination of document retrieval and generation to provide accurate answers to user queries.
 
-Prerequisites
+Prerequisites:
 
 pip install langchain langchain-community sentence_transformers transformers accelerate faiss-cpu pypdf
 
-Usage
+Usage:
 
 * Run the notebook rag_llama3.ipynb.
 
